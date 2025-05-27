@@ -1,0 +1,46 @@
+# === Java / Spring Boot Ignore Rules ===
+*.class
+*.jar
+*.war
+*.log
+
+# Build output
+/backend/stockvuemonitor/target/
+/backend/stockvuemonitor/build/
+
+/backend/stockvuemonitor/.gradle/
+/backend/stockvuemonitor/.mvn/
+
+# IDE & tool settings
+*.iml
+.idea/
+/backend/stockvuemonitor/.idea/
+/backend/stockvuemonitor/*.iml
+/backend/stockvuemonitor/.classpath
+/backend/stockvuemonitor/.project
+/backend/stockvuemonitor/.settings/
+
+# Ignore sensitive configuration
+/backend/stockvuemonitor/src/main/resources/application.properties
+
+# Optional: allow a public template file
+!/backend/stockvuemonitor/src/main/resources/application-example.properties
+
+# === Vue / Node.js Frontend Ignore Rules ===
+/frontend/stock-vue-monitor/node_modules/
+/frontend/stock-vue-monitor/dist/
+/frontend/stock-vue-monitor/.env.local
+/frontend/stock-vue-monitor/.env.production
+/frontend/stock-vue-monitor/.env.development
+
+# IDE & editor files
+/frontend/stock-vue-monitor/.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
