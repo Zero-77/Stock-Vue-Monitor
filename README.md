@@ -1,7 +1,7 @@
 # Vue + Spring Boot股票追蹤系統
 
 一個使用 Vue 3 與 Vue Router 搭配 Axios 串接 Spring Boot API 的專案。
-該系統可用來查詢股票最新資訊，並且以清晰的介面顯示結果。
+該系統可用來查詢股票最新資訊，顯示結果。
 
 串接"臺灣證券交易所 OpenAPI"
 
